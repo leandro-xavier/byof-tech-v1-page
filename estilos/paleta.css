@@ -1,0 +1,12 @@
+:root{
+    --primary-color-dark: rgb(8, 5, 255);
+    --primary-color: rgb(0, 58, 255);
+
+    --secondary-color-dark: rgb(5, 144, 200);
+    --secondary-color:rgb(88, 209, 255);
+
+    --dark: rgb(0, 0, 0);
+    --light: rgb(255, 255, 255);
+
+    --fondo: rgb(52, 9, 170)
+}

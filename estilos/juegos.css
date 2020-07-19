@@ -1,0 +1,91 @@
+.Productos > .juegos{
+    width: 80%;
+    height: auto;
+    margin: 20px 10% 50px 10%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Productos > .juegos > .textoGame{
+    float: left;
+    width: 40%;
+    font-size: 29px;
+    padding: 0 0 0 60px;
+    margin-bottom: 40px;
+    color: var(--secondary-color-dark);
+}
+
+.Productos > .juegos > .textoGame > p > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.Productos > .juegos > .textoGame > p > a:hover{
+    text-decoration: underline;
+}
+
+.Productos > .juegos > .textoGame > h3{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.Productos > .juegos > .game{
+    float: left;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Productos > .juegos > .game > ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio2 20s infinite reverse;
+}
+
+.Productos > .juegos > .game > ul > li{
+    list-style: none;
+    width: 100%;
+    height: inherit;
+}
+
+.Productos > .juegos > .game > ul > li > img{
+    width: 100%;
+    height: 300px;
+}
+
+@keyframes cambio2 {
+    0%{ margin-left: 0; }
+    20%{ margin-left: 0; }
+
+    25%{ margin-left: -100%; }
+    45%{ margin-left: -100%; }
+
+    50%{ margin-left: -200%; }
+    70%{ margin-left: -200%; }    
+}
+
+@media (max-width: 770px){
+
+    .Productos > .juegos{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Productos > .juegos > .textoGame{
+        width: 100%;
+        padding: 0 30px; 
+        text-align: justify;
+    }
+
+    .Productos > .juegos > .game{
+        width: 80%;
+    }
+
+
+}

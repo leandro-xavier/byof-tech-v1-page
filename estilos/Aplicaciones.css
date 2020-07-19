@@ -1,0 +1,42 @@
+.aplicaciones{
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    background-color: var(--primary-color-dark);
+    border-top: solid 2px var(--primary-color);
+}
+
+.aplicaciones > .texto{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplicaciones > .texto > h1{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: var(--light);
+}
+
+
+.aplicaciones > .tiendas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aplicaciones > .tiendas > div{
+    float: left;
+    margin: 0;
+    width: 50%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.aplicaciones > .tiendas > div > a > img{
+    width: 50%;
+    height: auto;
+}

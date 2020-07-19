@@ -1,0 +1,68 @@
+.Servicios{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background-image: url("../imagenes/cotizacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Servicios > .cotiza{
+    background-color: rgba(5, 144, 200, 0.4);
+    margin: 0;
+}
+
+.Servicios > .cotiza > .text{
+    width: 100%;
+    padding: 100px 0 100px 0;
+    margin: auto auto auto auto;
+}
+
+.Servicios > .cotiza > .text > h3{
+    font-size: 250%;
+    text-align: center;
+    margin: 0 10%;
+    -webkit-text-stroke: 1px black;
+}
+
+.Servicios > .cotiza > .text > p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--dark);
+    padding: 0 300px;
+    margin-bottom: 80px;
+    text-align: center;
+    -webkit-text-stroke: 1px var(--light);
+}
+
+.Servicios > .cotiza > .text > .botons{
+    margin: 20px 20px 0 20px;
+    font-weight: bold;
+    font-size: 100%;
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--secondary-color-dark);
+    border: solid 2px var(--secondary-color-dark);
+    padding: 5px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.Servicios > .cotiza > .text > .botons:hover{
+    transition: 0.8s;
+    color: var(--secondary-color-dark);
+    background-color: transparent;
+}
+
+@media (max-width: 770px){
+    .Servicios > .cotiza > .text > p{
+        font-size: 20px;
+        padding: 0 15%;
+        margin-bottom: 80px;
+    }
+}

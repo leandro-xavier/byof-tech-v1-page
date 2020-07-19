@@ -1,0 +1,50 @@
+@import "./header.css";
+@import "./menu.css";
+@import "./paleta.css";
+@import "./tecnologia.css";
+@import "./usamos.css";
+@import "./productos.css";
+@import "./servicios.css";
+@import "./somos.css";
+@import "./footer.css";
+
+*{
+    box-sizing: border-box;
+    font-family: "Gotham","Helvetica",sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../imagenes/network-3885328.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: rgba(red, green, blue, 1);
+}
+
+.boton{
+    font-weight: 18px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border: solid 2px var(--secondary-color);
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.boton:hover{
+    transition: 0.8s;
+    color: var(--light);
+    background-color: var(--secondary-color);
+}
+
+hr{
+    width: 75%;
+    background-color: var(--secondary-color-dark);
+    border: solid 1px var(--secondary-color-dark);
+}

@@ -1,0 +1,100 @@
+@import "./juegos.css";
+@import "./Aplicaciones.css";
+
+.Productos{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0 0;
+    background-color: var(--light);
+}
+
+.Productos > .Software{
+    width: 80%;
+    height: auto;
+    margin: 0 10% 30px 10%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Productos > .Software > .textoSoft{
+    float: left;
+    width: 40%;
+    font-size: 29px;
+    padding: 0 60px 0 0;
+    color: var(--secondary-color-dark);
+}
+
+.Productos > .Software > .textoSoft > p > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.Productos > .Software > .textoSoft > p > a:hover{
+    text-decoration: underline;
+}
+
+.Productos > .Software > .textoSoft > h3{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.Productos > .Software > .soft{
+    float: left;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Productos > .Software > .soft > ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 15s infinite;
+}
+
+.Productos > .Software > .soft > ul > li{
+    list-style: none;
+    width: 100%;
+    height: inherit;
+}
+
+.Productos > .Software > .soft > ul > li > img{
+    width: 100%;
+    height: 300px;
+}
+
+@keyframes cambio {
+    0%{ margin-left: 0; }
+    20%{ margin-left: 0; }
+
+    25%{ margin-left: -100%; }
+    45%{ margin-left: -100%; }
+
+    50%{ margin-left: -200%; }
+    70%{ margin-left: -200%; }    
+}
+
+@media (max-width: 770px){
+
+    .Productos > .Software{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Productos > .Software > .textoSoft{
+        width: 100%;
+        padding: 0 30px; 
+        text-align: justify;
+    }
+
+    .Productos > .Software > .soft{
+        width: 80%;
+    }
+
+
+}
